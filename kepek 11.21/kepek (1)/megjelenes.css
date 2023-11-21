@@ -1,0 +1,90 @@
+header{
+    background-image: url('img/dandelion.jpg');
+    grid-area:h;
+}
+
+
+footer {
+    background-image: url('img/dandy.gif');
+    grid-area:f;
+}
+
+
+
+nav {
+    background-image: url('img/dandy2.gif');
+    grid-area:n;
+    text-align: left;
+}
+
+
+aside {
+    background-image: url('img/dand3.jpg');
+    grid-area: as;
+}
+
+
+
+article {
+    background-image: url('img/dandy2.gif');
+    grid-area: ar;
+}
+
+
+div * {
+    height: 200px;
+    background-repeat: no-repeat;
+    text-align: right;
+    color: white;
+    background-size: cover;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+
+
+
+#fotartalom{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grap: 5px;
+    grid-template-areas: 
+    'h n n'
+    'as f ar'
+
+;
+}
+
+a{
+    text-decoration: none;
+    float: left;
+    height: auto;
+    
+}
+
+
+#menu {
+    background-color: blue;
+    height: 30px;
+    opacity: 0.5;
+}
+
+a:hover{
+    font-weight: bolder;
+    border: red solid 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
